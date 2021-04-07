@@ -1,18 +1,26 @@
-<head>
-    <script src="ruffle.js"></script>
-</head>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='utf8'>
+    </head>
+    <body>
+        <div id='ruffle'></div>
+        <script src='https://e9x.github.io/ruffle/ruffle.js'></script>
+        <script>
+var swfobject = {};
 
-<body>
-    <div id="container"> </div>
-
-    <script>
-        window.RufflePlayer = window.RufflePlayer || {};
-        window.addEventListener("load", (event) => {
-            const ruffle = window.RufflePlayer.newest();
-            const player = ruffle.createPlayer();
-            const container = document.getElementById("container");
-            container.appendChild(player);
-            player.load("factory-balls-3.swf");
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
         });
-    </script>
-</body>
+    
+    player.load({ url: url });
+}
+
+swfobject.embedSWF('https://e9x.github.io/ruffle/1on1soccer_24.swf', 'ruffle', 500, 500);
+        </script>
+    </body>
+</html>
