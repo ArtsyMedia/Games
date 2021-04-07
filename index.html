@@ -1,1 +1,11 @@
-
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("factory-balls-3.swf");
+    });
+</script>
+<script src="https://e9x.github.io/ruffle/ruffle.js"></script>
