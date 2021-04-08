@@ -6,4 +6,5 @@
     <li><a href="/play/worlds-hardest-game.html">World's Hardest Game</a></li>
     <li><a href="/play/worlds-hardest-game-2.html">World's Hardest Game 2</a></li>
     <li><a href="/play/little-alchemy.html">Little Alchemy</a></li>
+    <li><a href="/play/drift-cup-racing.html">Drift Cup Racing</a></li>
 </ul>
