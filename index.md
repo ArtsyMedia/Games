@@ -8,4 +8,5 @@
     <li><a href="/play/little-alchemy.html">Little Alchemy</a></li>
     <li><a href="/play/drift-cup-racing.html">Drift Cup Racing</a></li>
     <li><a href="/play/line-rider-2.html">Line Rider 2</a></li>
+    <li><a href="/play/mario-kart.html">Mario Kart</a></li>
 </ul>
