@@ -9,4 +9,5 @@
     <li><a href="/play/drift-cup-racing.html">Drift Cup Racing</a></li>
     <li><a href="/play/line-rider-2.html">Line Rider 2</a></li>
     <li><a href="/play/mario-kart.html">Mario Kart</a></li>
+    <li><a href="/play/garfield-creator.html">Garfield 2</a></li>
 </ul>
