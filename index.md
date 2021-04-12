@@ -13,5 +13,5 @@
     <li><a href="/play/4x4-rally.html">4x4 Rally</a></li>
     <li><a href="/play/swords-and-sandals.html">Swords and Sandals</a></li>
     <li><a href="/play/pacxon.html">PacXon</a></li>
-    <li><a href="/play/interactive-buddy.html">PacXon</a></li>
+    <li><a href="/play/interactive-buddy.html">Interactive Buddy</a></li>
 </ul>
