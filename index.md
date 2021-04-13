@@ -14,5 +14,5 @@
     <li><a href="/play/swords-and-sandals.html">Swords and Sandals</a></li>
     <li><a href="/play/pacxon.html">PacXon</a></li>
     <li><a href="/play/interactive-buddy.html">Interactive Buddy</a></li>
-    <li><a href="/play/minecraft.html">Minecraft Beta</a></li>
+    <li><a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s022s4h6/minecraft-classic2.xml">Minecraft Beta</a></li>
 </ul>
