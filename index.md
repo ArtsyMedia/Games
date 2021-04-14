@@ -19,4 +19,5 @@
     <li><a href="/play/papas-pizzeria.html">Papa's Pizzeria</a></li>
     <li><a href="/play/escaping-the-prison.html">Escaping the Prison</a></li>
     <li><a href="/play/this-is-the-only-level.html">This Is The Only Level</a></li>
+    <li><a href="/play/the-game.html">The Game</a></li>
 </ul>
