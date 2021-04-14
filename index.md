@@ -21,4 +21,5 @@
     <li><a href="/play/this-is-the-only-level.html">This Is The Only Level</a></li>
     <li><a href="/play/the-game.html">The Game</a></li>
     <li><a href="/play/super-idle-imagination.html">Super Idle Imagination</a></li>
+    <li><a href="/play/cell-machine.html">Sam Hogan's Cell Machine</a></li>
 </ul>
