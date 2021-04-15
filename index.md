@@ -25,4 +25,5 @@
     <li><a href="/play/low-poly-racing.html">Low Poly Racing</a></li>
     <li><a href="/play/feed-the-head.html">Feed The Head</a></li>
     <li><a href="/play/idle-racing.html">Idle Racing</a></li>
+    <li><a href="/play/we-become-what-we-behold.html">We Become What We Behold</a></li>
 </ul>
