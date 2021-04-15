@@ -24,4 +24,5 @@
     <li><a href="/play/cell-machine.html">Sam Hogan's Cell Machine</a></li>
     <li><a href="/play/low-poly-racing.html">Low Poly Racing</a></li>
     <li><a href="/play/feed-the-head.html">Feed The Head</a></li>
+    <li><a href="/play/idle-racing.html">Idle Racing</a></li>
 </ul>
