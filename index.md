@@ -28,4 +28,5 @@
     <li><a href="/play/we-become-what-we-behold.html">We Become What We Behold</a></li>
     <li><a href="/play/drift-car-sim.html">Drift Car Simulator</a></li>
     <li><a href="/play/apex-legends.html">Apex Legends</a></li>
+    <li><a href="/play/sort-the-court.html">Sort The Court!</a></li>
 </ul>
