@@ -29,4 +29,5 @@
     <li><a href="/play/drift-car-sim.html">Drift Car Simulator</a></li>
     <li><a href="/play/apex-legends.html">Apex Legends</a></li>
     <li><a href="/play/sort-the-court.html">Sort The Court!</a></li>
+    <li><a href="/play/surviv-io.html">surviv.io</a></li>
 </ul>
