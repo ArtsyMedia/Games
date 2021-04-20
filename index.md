@@ -30,4 +30,5 @@
     <li><a href="/play/apex-legends.html">Apex Legends</a></li>
     <li><a href="/play/sort-the-court.html">Sort The Court!</a></li>
     <li><a href="https://nevelskoygroup.com/">surviv.io</a></li>
+    <li><a href="/play/super-smash-flash-2.html">Super Smash Flash 2</a></li>
 </ul>
