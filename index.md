@@ -30,8 +30,9 @@
     <li><a href="/play/drift-car-sim.html" target="_blank">Drift Car Simulator</a></li>
     <li><a href="/play/apex-legends.html">Apex Legends</a></li>
     <li><a href="/play/sort-the-court.html" target="_blank">Sort The Court!</a></li>
-    <li><a href="https://nevelskoygroup.com/" target="_blank">surviv.io</a></li>
+    <li><a href="https://nevelskoygroup.com/" target="_blank">Surviv.io</a></li>
     <li><a href="/play/super-smash-flash-2.html" target="_blank">Super Smash Flash 2</a></li>
     <li><a href="https://centoshelp.org/mario/" target="_blank">Super Mario Bros</a></li>
     <li><a href="https://youtu.be/xvFZjo5PgG0" target="_blank">Krunker.io</a></li>
+    <li><a href="https://myagar.pro/web/" target="_blank">Agar.io</a></li>
 </ul>
