@@ -31,5 +31,5 @@
     <li><a href="/play/sort-the-court.html" target="_blank">Sort The Court!</a></li>
     <li><a href="https://nevelskoygroup.com/" target="_blank">surviv.io</a></li>
     <li><a href="/play/super-smash-flash-2.html" target="_blank">Super Smash Flash 2</a></li>
-    <li><a href="/play/krunker-io.html" target="_blank">Krunker.io</a></li>
+    <li><a href="https://youtu.be/QtBDL8EiNZo" target="_blank">Krunker.io</a></li>
 </ul>
