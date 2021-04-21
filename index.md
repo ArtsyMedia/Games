@@ -31,4 +31,5 @@
     <li><a href="/play/sort-the-court.html" target="_blank">Sort The Court!</a></li>
     <li><a href="https://nevelskoygroup.com/" target="_blank">surviv.io</a></li>
     <li><a href="/play/super-smash-flash-2.html" target="_blank">Super Smash Flash 2</a></li>
+    <li><a href="https://centoshelp.org/mario/" target="_blank">Super Mario Bros</a></li>
 </ul>
