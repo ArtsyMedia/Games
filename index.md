@@ -1,5 +1,5 @@
 <h1>Games Availible</h1>
-<p>I'm hosting 6ames because coolmath is boring now
+<p>I'm hosting games because coolmath is boring now
 
 <ul>
     <li><a href="/play/factory-balls-1.html" target="_blank">Factory Balls 1</a></li>
