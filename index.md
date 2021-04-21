@@ -33,4 +33,5 @@
     <li><a href="https://nevelskoygroup.com/" target="_blank">surviv.io</a></li>
     <li><a href="/play/super-smash-flash-2.html" target="_blank">Super Smash Flash 2</a></li>
     <li><a href="https://centoshelp.org/mario/" target="_blank">Super Mario Bros</a></li>
+    <li><a href="https://youtu.be/xvFZjo5PgG0" target="_blank">Krunker.io</a></li>
 </ul>
