@@ -35,4 +35,5 @@
     <li><a href="https://centoshelp.org/mario/" target="_blank">Super Mario Bros</a></li>
     <li><a href="https://youtu.be/xvFZjo5PgG0" target="_blank">Krunker.io</a></li>
     <li><a href="https://myagar.pro/web/" target="_blank">Agar.io</a></li>
+    <li><a href="https://helmetroyale.com" target="_blank">Helmet Royale (Surviv.io alternative)</a></li>
 </ul>
