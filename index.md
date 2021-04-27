@@ -1,4 +1,6 @@
-<h1>Games Availible</h1>
+<div align="center">
+<iframe src="https://artsymedia.github.io/Scared-Dots/" width="800" height="300" frameborder="0" scrolling="no">
+</div>
 <p>I'm hosting games because coolmath is boring now</p>
 
 <ul>
