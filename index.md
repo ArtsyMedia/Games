@@ -36,4 +36,5 @@
     <li><a href="https://youtu.be/xvFZjo5PgG0" target="_blank">Krunker.io</a></li>
     <li><a href="https://myagar.pro/web/" target="_blank">Agar.io</a></li>
     <li><a href="https://helmetroyale.com" target="_blank">Helmet Royale (Surviv.io alternative)</a></li>
+    <li><a href="https://sparticle999.github.io/SpaceCompany/" target="_blank">Space Company</a></li>
 </ul>
