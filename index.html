@@ -1,6 +1,7 @@
 <head>
 	<title>Facing History / Holocaust Memoir Seminar and organizer</title>
 	<script async src="https://arc.io/widget.min.js#KPE7gDy2"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
         
@@ -80,6 +81,8 @@
 <div align="center">
 <iframe src="https://artsymedia.github.io/Scared-Dots/" width="800" height="300" frameborder="0" scrolling="no"></iframe>
 </div>
+	
+<div id="mycountdown"></div>
 
 <ul class="gamelist">
 	<li><a href="https://racing-clicker.github.io/" target="_blank">RCM</a></li>
@@ -129,4 +132,39 @@
     <li><a href="/play/factory-balls-1.html" target="_blank">Factory Balls 1</a></li>
 </ul>
 
+<script>
+var myreset = [15,24,00]; // at what time to reset - 19:40:00
+
+var mycountdown = startCountdown();
+
+function startCountdown(){
+	var enddate = calculateEndDate();
+  return setInterval(function(){tickTock(calculateStartDate(),enddate)}, 1000);
+}
+function calculateStartDate(){ //this needs to be edited if using the server time
+	return new Date();
+}
+function calculateEndDate(){
+    var enddate = new Date();
+    enddate.setHours(myreset[0]);
+    enddate.setMinutes(myreset[1]);
+    enddate.setSeconds(myreset[2]);
+    return enddate;
+}
+function tickTock(startdate, enddate){
+  var diff = enddate.getTime() - startdate.getTime(); 
+  d = diff >= 0 ? diff : diff + 24*3600*1000;
+  var h = Math.floor(d / 3600 / 1000);
+  var m = Math.floor(d / 60 / 1000) - 60*h; 
+  var s = Math.floor(d / 1000) - 3600*h - 60*m; 
+  printCountdown(h,m,s);
+}
+function pluralize(word,count){
+  	return (count > 1) ? word+'s ' : word+' ';
+}
+function printCountdown(h,m,s){
+  var t = h + pluralize(' hour',h)+ m+pluralize(' minute',m)+ s + pluralize(' and second',s);
+  $('#mycountdown').html(t); 
+}
+</script>
 </body>
