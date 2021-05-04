@@ -163,7 +163,7 @@ function pluralize(word,count){
   	return (count > 1) ? word+'s ' : word+' ';
 }
 function printCountdown(h,m,s){
-  var t = 'school ends in ' + h + pluralize(' hour',h)+ m+pluralize(' minute',m)+ 'and ' + s + pluralize(' second',s);
+  var t = 'School ends in ' + h + pluralize(' hour',h)+ m+pluralize(' minute',m)+ 'and ' + s + pluralize(' second',s);
   $('#mycountdown').html(t); 
 }
 </script>
