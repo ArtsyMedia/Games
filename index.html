@@ -6,7 +6,7 @@
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
         
 		body {
-			background-color: #333333;
+			background-color: rgb(30, 31, 32);
 		}
         
 		p {
@@ -60,6 +60,19 @@
 			margin-right: 180px;
 			margin-left: 180px;
 		}
+        
+		#searchbar {
+			background-image: url('https://w3schools.com/css/searchicon.png');
+			background-position: 10px 12px;
+			background-repeat: no-repeat;
+			font-size: 16px;
+			padding: 12px 20px 12px 40px;
+			border: 1px solid #ddd;
+			margin-right: 180px;
+			margin-left: 180px;
+			margin-bottom: 12px;
+			width: 630;
+		}
 	</style>
 </head>
 <body>
@@ -80,8 +93,12 @@
 	</div>
 	
 	<p id="mycountdown" align="center"></p>
+	
+	<div align="center">
+		<input type="text" id="searchbar" onkeyup="searchGames()" placeholder="Search for games.." title="Type in a game">
+	</div>
 
-	<ul class="gamelist">
+	<ul class="gamelist" id="gamelist">
 		<li><a href="/3d.city/index.html" target="_blank">3D City</a></li>
 		<li><a href="/couch2048" target="_blank">Couch 2048</a></li>
 		<li><a href="/devShop" target="_blank">DevShop</a></li>
@@ -167,6 +184,23 @@
 		function printCountdown(h,m,s){
 			var t = 'School ends in ' + h + pluralize(' hour',h)+ m+pluralize(' minute',m)+ 'and ' + s + pluralize(' second',s);
 			$('#mycountdown').html(t); 
+		}
+		
+		function searchGames() {
+			var input, filter, ul, li, a, i, txtValue;
+			input = document.getElementById("searchbar");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("gamelist");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				txtValue = a.textContent || a.innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
 		}
 	</script>
 </body>
