@@ -1,4 +1,3 @@
-title: VERY IMPORTANT HOMEWORK
-theme: jekyll-theme-midnight
-github:
-  is_project_page: false
+sass:
+  sass_dir: _sass
+  style: :compressed
