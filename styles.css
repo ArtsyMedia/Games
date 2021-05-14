@@ -113,8 +113,7 @@ nav {
 }
 
 .searchdiv {
-  margin-right: 180px;
-  margin-left: 180px;
+  align: center;
 }
 
 .searchdiv span {
