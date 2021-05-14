@@ -1,0 +1,221 @@
+<head>
+	<title>Facing History / Holocaust Memoir Seminar and organizer</title>
+	<script async src="https://arc.io/widget.min.js#KPE7gDy2"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+        
+		body {
+			background-color: rgb(30, 31, 32);
+		}
+        
+		p {
+			color: rgb(217, 217, 217);
+			font-family: Roboto;
+		}
+        
+		li {
+			color: rgb(217, 217, 217);
+			font-family: Roboto;
+			font-size: 120%;
+			font-weight: 500;
+			margin: 40px 0;
+		}
+        
+		a {
+			color: rgb(217, 217, 217);
+		}
+        
+		nav {
+			float: right;
+			line-height: 1.25rem;
+			word-spacing: 1rem;
+			opacity: 0.5;
+		}
+        
+		.navword {
+			display: inline;
+			font-weight: normal;
+			text-decoration: none;
+			font-family: Roboto;
+		}
+        
+		.masthead {
+			padding-top: 16px;
+			margin-right: 180px;
+			margin-left: 180px;
+		}
+        
+		h3 {
+			color: rgb(217, 217, 217);
+			font-family: Roboto;
+			font-weight: 600;
+		}
+        
+		.titlehead {
+			text-decoration: none;
+		}
+        
+		.gamelist {
+			margin-right: 180px;
+			margin-left: 180px;
+		}
+		
+		#searchbar {
+			font-size: 16px;
+			color: rgb(217, 217, 217);
+			padding: 12px 20px 12px 40px;
+			border: none;
+			margin-bottom: 12px;
+			width: 672px;
+			background-color: rgb(33, 37, 41);
+		}
+        
+		.searchdiv {
+			margin-right: 180px;
+			margin-left: 180px;
+		}
+        
+		.searchdiv span {
+			position: absolute;
+			z-index: 2;
+			display: block;
+			width: 4.375rem;
+			height: 2.375rem;
+			line-height: 2.990rem;
+			text-align: center;
+			pointer-events: none;
+			color: rgb(153, 153, 153);
+		}
+	</style>
+</head>
+<body>
+	<header class="masthead">
+		<h3 class="masthead-title">
+			<a href="https://artsymedia.github.io" title="Home" class="titlehead">ArtsyMedia</a>
+			<nav class="nav">
+				<small>
+					<a href="https://github.com/ArtsyMedia/artsymedia.github.io" class="navword">Github</a>
+					<a href="mailto:2021_maxp@glencoeschools.org?subject=Contact&body=Report a Bug or Suggest a Game Here" target="_blank" class="navword">Contact</a>
+				</small>
+			</nav>
+		</h3>
+	</header>
+	
+	<div align="center">
+		<iframe src="https://artsymedia.github.io/Scared-Dots/" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+	</div>
+	
+	<p id="mycountdown" align="center"></p>
+	
+	<div align="center" class="searchdiv">
+		<span class="fa fa-search fa-lg"></span>
+		<input type="text" id="searchbar" onkeyup="searchGames()" placeholder="Search for games.." title="Type in a game">
+	</div>
+
+	<ul class="gamelist" id="gamelist">
+		<li><a href="/3d.city/index.html" target="_blank">3D City</a></li>
+		<li><a href="/couch2048" target="_blank">Couch 2048</a></li>
+		<li><a href="/devShop" target="_blank">DevShop</a></li>
+		<li><a href="/TriggerRally" target="_blank">Trigger Rally</a></li>
+		<li><a href="/play/evolution.html" target="_blank">Evolution by Keiwan</a></li>
+		<li><a href="https://racing-clicker.github.io/" target="_blank">RCM</a></li>
+		<li><a href="https://pmotschmann.github.io/Empire/" target="_blank">Empire</a></li>
+		<li><a href="https://luts91.github.io/idle-idle-gamedev/" target="_blank">Idle IdleGameDev</a></li>
+		<li><a href="https://scorzy.github.io/IdleAnt2/" target="_blank">Idle Ant 2</a></li>
+		<li><a href="https://scorzy.github.io/IdleGraph/" target="_blank">Idle Graph</a></li>
+		<li><a href="/play/breaking-the-bank.html" target="_blank">Breaking The Bank</a> (takes a second to load)</li>
+		<li><a href="https://research.google.com/semantris" target="_blank">Semantris</a></li>
+		<li><a href="/play/an-escape-series-1.html" target="_blank">An Escape Series 1</a></li>
+		<li><a href="https://player03.com/run/3/beta/" target="_blank">Run 3</a></li>
+		<li><a href="/play/miniputt.html" target="_blank">Miniputt</a></li>
+		<li><a href="https://sparticle999.github.io/SpaceCompany/" target="_blank">Space Company</a></li>
+		<li><a href="https://helmetroyale.com" target="_blank">Helmet Royale (Surviv.io alternative)</a></li>
+		<li><a href="https://myagar.pro/web/" target="_blank">Agar.io</a></li>
+		<li><a href="https://youtu.be/xvFZjo5PgG0" target="_blank">Krunker.io</a></li>
+		<li><a href="https://centoshelp.org/mario/" target="_blank">Super Mario Bros</a></li>
+		<li><a href="/play/super-smash-flash-2.html" target="_blank">Super Smash Flash 2</a></li>
+		<li><a href="/play/surviv-io.html" target="_blank">Surviv.io</a></li>
+		<li><a href="/play/sort-the-court.html" target="_blank">Sort The Court!</a></li>
+		<li><a href="/play/apex-legends.html">Apex Legends</a></li>
+		<li><a href="/play/drift-car-sim.html" target="_blank">Drift Car Simulator</a></li>
+		<li><a href="/play/we-become-what-we-behold.html" target="_blank">We Become What We Behold</a></li>
+		<li><a href="/play/idle-racing.html" target="_blank">Idle Racing</a></li>
+		<li><a href="/play/feed-the-head.html" target="_blank">Feed The Head</a></li>
+		<li><a href="/play/low-poly-racing.html" target="_blank">Low Poly Racing</a></li>
+		<li><a href="/play/cell-machine.html" target="_blank">Sam Hogan's Cell Machine</a></li>
+		<li><a href="/play/super-idle-imagination.html" target="_blank">Super Idle Imagination</a></li>
+		<li><a href="/play/the-game.html" target="_blank">The Game</a></li>
+		<li><a href="/play/this-is-the-only-level.html" target="_blank">This Is The Only Level</a></li>
+		<li><a href="/play/escaping-the-prison.html" target="_blank">Escaping the Prison</a></li>
+		<li><a href="/play/papas-pizzeria.html" target="_blank">Papa's Pizzeria</a></li>
+		<li><a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s022s4h6/minecraft-classic2.xml" target="_blank">Minecraft Beta</a></li>
+		<li><a href="/play/interactive-buddy.html" target="_blank">Interactive Buddy</a></li>
+		<li><a href="/play/pacxon.html" target="_blank">PacXon</a></li>
+		<li><a href="/play/swords-and-sandals.html" target="_blank">Swords and Sandals</a></li>
+		<li><a href="/play/4x4-rally.html" target="_blank">4x4 Rally</a></li>
+		<li><a href="/play/garfield-creator.html" target="_blank">Garfield 2</a></li>
+		<li><a href="/play/mario-kart.html" target="_blank">Mario Kart</a></li>
+		<li><a href="/play/line-rider-2.html" target="_blank">Line Rider 2</a></li>
+		<li><a href="/play/drift-cup-racing.html" target="_blank">Drift Cup Racing</a></li>
+		<li><a href="/play/little-alchemy.html" target="_blank">Little Alchemy</a></li>
+		<li><a href="/play/worlds-hardest-game-2.html" target="_blank">World's Hardest Game 2</a></li>
+		<li><a href="/play/worlds-hardest-game.html" target="_blank">World's Hardest Game</a></li>
+		<li><a href="/play/learn-to-fly.html" target="_blank">Learn To Fly</a></li>
+		<li><a href="/play/factory-balls-2.html" target="_blank">Factory Balls 2</a></li>
+		<li><a href="/play/factory-balls-1.html" target="_blank">Factory Balls 1</a></li>
+	</ul>
+	
+	<script>
+		var myreset = [15,24,00]; // at what time to reset - 19:40:00
+		var mycountdown = startCountdown();
+		
+		function startCountdown(){
+			var enddate = calculateEndDate();
+			return setInterval(function(){tickTock(calculateStartDate(),enddate)}, 1000);
+		}
+		function calculateStartDate(){ //this needs to be edited if using the server time
+			return new Date();
+		}
+		function calculateEndDate(){
+			var enddate = new Date();
+			enddate.setHours(myreset[0]);
+			enddate.setMinutes(myreset[1]);
+			enddate.setSeconds(myreset[2]);
+			return enddate;
+		}
+		function tickTock(startdate, enddate){
+			var diff = enddate.getTime() - startdate.getTime(); 
+			d = diff >= 0 ? diff : diff + 24*3600*1000;
+			var h = Math.floor(d / 3600 / 1000);
+			var m = Math.floor(d / 60 / 1000) - 60*h; 
+			var s = Math.floor(d / 1000) - 3600*h - 60*m; 
+			printCountdown(h,m,s);
+		}
+		function pluralize(word,count){
+			return (count > 1) ? word+'s ' : word+' ';
+		}
+		function printCountdown(h,m,s){
+			var t = 'School ends in ' + h + pluralize(' hour',h)+ m+pluralize(' minute',m)+ 'and ' + s + pluralize(' second',s);
+			$('#mycountdown').html(t); 
+		}
+		
+		function searchGames() {
+			var input, filter, ul, li, a, i, txtValue;
+			input = document.getElementById("searchbar");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("gamelist");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				txtValue = a.textContent || a.innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+</body>
