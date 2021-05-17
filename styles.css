@@ -17,12 +17,7 @@ body {
   padding-right: 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
   font-weight: 600;
   line-height: 1.25;
@@ -43,9 +38,7 @@ h3 {
   font-size: 1.25rem;
 }
 
-h4,
-h5,
-h6 {
+h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -62,11 +55,9 @@ hr {
   border-top: 1px solid rgb(255, 255, 255, 0.15);
 }
 
-li {
-  color: rgb(217, 217, 217);
-  font-size: 120%;
-  font-weight: 500;
-  margin: 40px 0;
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 a {
