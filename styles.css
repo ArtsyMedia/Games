@@ -61,6 +61,10 @@ ul, ol, dl {
   margin-left: 100px;
 }
 
+li + li {
+  margin-top: .25rem;
+}
+
 a {
   color: rgb(217, 217, 217);
 }
