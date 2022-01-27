@@ -91,6 +91,7 @@ nav {
 
 .titlehead {
   text-decoration: none;
+  float: left !important;
 }
 
 #searchbar {
